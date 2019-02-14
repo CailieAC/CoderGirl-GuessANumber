@@ -10,7 +10,10 @@ namespace GuessANumber
             int number = int.Parse(Console.ReadLine());
 
             // If they enter 8, output “You Win!”. Otherwise, output “You Lose.”. Do this using an inline if statement.
-
+            if (number == 8)
+                Console.WriteLine("You Win!");
+            else
+                Console.WriteLine("You Lose.");
             Console.ReadLine();
         }
     }
